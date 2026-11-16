@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Memórias Escolares | Hiago</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="hero">
+    <nav>
+        <div class="logo">✦ Memórias</div>
+        <a href="#redacoes">Minhas redações</a>
+    </nav>
+
+    <div class="hero-content">
+        <span class="tag">MEU LIVRO DE MEMÓRIAS</span>
+        <h1>Um pouco da minha<br><em>história.</em></h1>
+        <p>
+            Cada texto guarda uma ideia, uma descoberta
+            e um pedacinho da minha trajetória escolar.
+        </p>
+        <h2>Hiago Desplanche Leal</h2>
+        <a href="#redacoes" class="button">Explorar minhas redações ↓</a>
+    </div>
+
+    <div class="hero-decoration">15</div>
+</header>
+
+<section class="intro">
+    <span class="tag">MINHA TRAJETÓRIA</span>
+    <h2>Palavras que contam<br>uma história.</h2>
+    <p>
+        Este espaço foi criado para guardar minhas produções,
+        minhas ideias e tudo aquilo que aprendi durante
+        minha caminhada escolar.
+    </p>
+</section>
+
+<section class="redacoes" id="redacoes">
+    <div class="section-heading">
+        <div>
+            <span class="tag">MEU ACERVO</span>
+            <h2>Minhas redações</h2>
+            <p>15 textos, 15 momentos especiais.</p>
+        </div>
+        <span class="counter">15 REDAÇÕES</span>
+    </div>
+
+    <div class="search-box">
+        <input type="text" id="search" placeholder="Pesquisar uma redação...">
+        <span>⌕</span>
+    </div>
+
+    <div class="cards" id="cards"></div>
+    <p class="empty" id="empty">Nenhuma redação encontrada.</p>
+</section>
+
+<section class="quote">
+    <span>“</span>
+    <h2>O conhecimento transforma<br>o presente e constrói o futuro.</h2>
+    <p>Uma lembrança da minha jornada.</p>
+</section>
+
+<footer>
+    <div class="logo">✦ Memórias Escolares</div>
+    <p>Feito com carinho por Hiago Desplanche Leal.</p>
+    <p class="copyright">© 2026 · Minha história, minhas palavras.</p>
+</footer>
+
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <button class="close" id="close">&times;</button>
+        <span class="tag" id="modal-number"></span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-text"></p>
+    </div>
+</div>
+
+<script src="javascript.js"></script>
+</body>
+</html>
